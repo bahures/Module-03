@@ -10,10 +10,10 @@ html {
 }
 
 
-body {
+/*body {
     max-width: 1200px;
     margin: 0 auto;
-}
+}*/
 
 
 .main-content {
@@ -80,7 +80,7 @@ img {
     margin-right: 56px;
     margin-bottom: 135px;
     font-family: 'Playfair Display', serif; 
-    font-style: regular;
+    font-style: normal;
 }
 
 
@@ -95,6 +95,7 @@ img {
 
 
 .main-list-item h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 32px;
     line-height: 17px;
     font-size: 14px;
@@ -123,8 +124,8 @@ img {
 
 
 .load {
-    margin: 58px 380px 70px 360px;
-    border: none;
+   margin: 58px 0 70px;
+   text-align: center; 
 }
 
 
