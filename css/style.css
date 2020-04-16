@@ -1,0 +1,153 @@
+html {
+    box-sizing: border-box;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.main-content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+.main-header {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+.main-navigation {
+    padding: 70px 0 100px;
+}
+
+
+.main-menu {
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+}
+
+
+.main-menu li {
+    display: inline-block;
+}
+
+
+.main-menu li a {
+    font-family: 'Playfair Display', serif;    
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 14px;
+    font-style: normal;
+    color: rgb(98, 98, 98);
+}
+
+
+.main-menu li:not(:last-child) {
+    margin-right: 100px;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.main-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-list-item {
+    display: inline-block;
+    width: 420px;
+    margin-right: 56px;
+    margin-bottom: 135px;
+    font-family: 'Playfair Display', serif; 
+    font-style: regular;
+}
+
+
+.main-list-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+
+.main-list-item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+}
+
+
+.main-list-item h4 {
+    margin-bottom: 32px;
+    line-height: 17px;
+    font-size: 14px;
+    color: rgb(184, 174, 159);  
+}
+
+
+.main-list-item h2 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 36px;
+    line-height: 36px;
+    font-size: 28px;
+    color: rgb(98, 98, 98)
+}
+
+
+.main-list-item p {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 14px;
+    color: rgb(98, 98, 98);
+    text-align: left;
+    margin: 0 0 0 0;   
+}
+
+
+.load {
+    margin: 58px 380px 70px 360px;
+    border: none;
+}
+
+
+button {
+    font-family: 'Playfair Display', serif;
+    line-height: 24px;
+    font-size: 20px;
+    color: rgb(98, 98, 98);
+    padding: 24px 30px 20px 30px;
+    cursor: pointer;
+}
+  
+
+.main-menu a:hover,
+.main-menu a:focus {
+    color: blue;    
+}
+
+
+
+
+
+
+
+
+
